@@ -18,7 +18,7 @@ def processar_sepia():
         if frame is not None:
             sepia = aplicar_sepia(frame)
             cv2.imshow("Sepia ", sepia)
-        if cv2.waitKey(1) & 0xFF == 27:  # ESC
+        if cv2.waitKey(1) & 0xFF == 27:  
             rodando = False
             break
 
